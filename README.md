@@ -3,7 +3,6 @@
 > A collection of MySQL commands for optimizing modern MySQL development productivity.
 
 ![](https://raw.githubusercontent.com/cliffordfajardo/mysql-snippets/master/mysql-snippets-demo.gif)
-
 ![The MIT License](https://img.shields.io/npm/l/express.svg)
 
 
@@ -13,13 +12,29 @@
 $ apm install mysql-snippets
 ```
 
+
+
+
+
+
+
+
+
+
 ### Contributing/Suggestions
 
-Feel free to let me know ([link](https://github.com/ancor-dev/mysql-snippets/issues)) what else can be improved/added or you can also submit a PR.
+Feel free to let me know ([link](https://github.com/cliffordfajardo/mysql-snippets/issues)) what else can be improved/added or you can also submit a PR.
+
+
+
+
+
+
+
+
 
 
 ## Snippets Overview
-- [Video Example](https://www.youtube.com/watch?v=rQoqbEiFNoU&feature=youtu.be)
 - [Database](#database)
 - [Table](#table)
 - [Table components](#create-table-components)
@@ -40,11 +55,27 @@ Feel free to let me know ([link](https://github.com/ancor-dev/mysql-snippets/iss
 
 
 
+
+
+
+
+
+
+
 ### Database
 | Snippet Code     | Description    |
 | -----------------|----------------|
 | s-db             | create a new database |
 | s-db-drop        | delete the database |
+
+
+
+
+
+
+
+
+
 
 ### Table
 | Snippet Code     | Description    |
@@ -56,6 +87,15 @@ Feel free to let me know ([link](https://github.com/ancor-dev/mysql-snippets/iss
 
 **s-many-many** - Very powerful snippet! Make table for relation *many-to-many*, make two foreign key constrain, and two indexes in it and make two indexes in corresponding tables
 
+
+
+
+
+
+
+
+
+
 ### Create Table components
 | Snippet Code     | Description    |
 | -----------------|----------------|
@@ -66,12 +106,30 @@ Feel free to let me know ([link](https://github.com/ancor-dev/mysql-snippets/iss
 | s-pk | make primary key |
 | s-uk | make unique key |
 
+
+
+
+
+
+
+
+
+
 ### Insert
 | Snippet Code     | Description    |
 | -----------------|----------------|
 | s-i | insert multirow |
 | s-ione | insert one row |
 | s-ifrom | isert data from a sample(other table or database)|
+
+
+
+
+
+
+
+
+
 
 ### Select
 | Snippet Code     | Description    |
@@ -84,6 +142,13 @@ Feel free to let me know ([link](https://github.com/ancor-dev/mysql-snippets/iss
 | s-scount  | inline *select* for count rows in the table |
 | s-ss      | select a value `SELECT '...';` |
 | s-sv      | select a variable `SELECT `...`;` |
+
+
+
+
+
+
+
 
 
 
@@ -103,7 +168,6 @@ Feel free to let me know ([link](https://github.com/ancor-dev/mysql-snippets/iss
 | s--or | a part of conditions with expression `` OR ( `col` = `col2` ) `` |
 | s-e | an expression ``( `col` = `col2` )``|
 
-
 **Statements**
 
 | Snippet Code     | Description    |
@@ -120,15 +184,41 @@ Feel free to let me know ([link](https://github.com/ancor-dev/mysql-snippets/iss
 | s-u |`union` statement |
 
 
+
+
+
+
+
+
+
+
 ### Update
 | Snippet Code     | Description    |
 | -----------------|----------------|
 | s-u | default `update` snippet with `where` condition |
 
+
+
+
+
+
+
+
+
+
 ### Delete
 | Snippet Code     | Description    |
 | -----------------|----------------|
 | s-d | default `delete` snippet with `where` condition |
+
+
+
+
+
+
+
+
+
 
 ### Alter - modify structure
 All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
@@ -161,6 +251,14 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 | uk            | add unique key to exists table |
 
 
+
+
+
+
+
+
+
+
 ### Trigger
 
 | Snippet Code     | Description    |
@@ -171,6 +269,15 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 | s--trig-list | list triggers for table(also specify DB)|
 | s-trig-drop | drop the trigger |
 
+
+
+
+
+
+
+
+
+
 ### Procedure
 
 | Snippet Code     | Description    |
@@ -179,6 +286,15 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 | s--proc | replace procedure(drop and create new)|
 | s-proc-drop | drop the storage procedure |
 | s-proc-list | show stored procedures list(only current database)|
+
+
+
+
+
+
+
+
+
 
 ### Function
 
@@ -189,6 +305,15 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 | s-func-drop | drop the function |
 | s-func-list | show list of user-defined functions(only current database)|
 
+
+
+
+
+
+
+
+
+
 ### Show
 
 | Snippet Code     | Description    |
@@ -197,6 +322,14 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 | s-hcreate | show command for creating the table |
 | s-hidx    | show indexes for the table |
 | s-hrel    | show relations of a table (using `information_schema`) |
+
+
+
+
+
+
+
+
 
 
 ### Constructions
@@ -249,6 +382,14 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 | s-cur | powerful complex snippet! Makes ready to use cursor |
 
 
+
+
+
+
+
+
+
+
 ### User
 
 | Snippet Code     | Description    |
@@ -259,6 +400,15 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 | s-user-add-hash | create new user with a password by hash |
 | s-user-drop | remove user |
 | s-user-pwd | change user password |
+
+
+
+
+
+
+
+
+
 
 ### Privileges
 
@@ -271,12 +421,42 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 | s-priv-drop-all | remove _all_ privileges from user |
 | s-priv-list | show list of user privileges |
 
+
+
+
+
+
+
+
+
+
 ### Other
 
 | Snippet Code     | Description    |
 | -----------------|----------------|
 | s-delim | make `delimiter $$` statement and at the end `delimiter ;`
 | s-utc | select current `timestamp`|
+
+
+
+
+
+
+
+
+
+
+### Contact Me
+- [@github/cliffordfajardo](https://github.com/cliffordfajardo/)
+- [@twitter/cliffordfajard0](https://twitter.com/cliffordfajard0)
+
+
+
+
+
+
+
+
 
 
 ### Credits
