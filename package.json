@@ -1,13 +1,13 @@
 {
   "name": "mysql-snippets",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A collection of MySQL commands for optimizing modern MySQL development productivity.",
   "private": true,
   "repository": "https://github.com/cliffordfajardo/mysql-snippets",
   "bugs": {
     "url": "https://github.com/cliffordfajardo/mysql-snippets/issues"
   },
-  "author":{
+  "author": {
     "name": "Clifford Fajardo",
     "email": "cliffordfajardo@gmail.com",
     "url": "twitter.com/cliffordfajard0"
@@ -30,13 +30,10 @@
     "snippets",
     "zen coding"
   ],
-  "contributors": [
-
-  ],
+  "contributors": [],
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
