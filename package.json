@@ -1,11 +1,11 @@
 {
-  "name": "mysql-snippets",
+  "name": "atom-mysql-snippets",
   "version": "0.1.0",
   "description": "A collection of MySQL commands for optimizing modern MySQL development productivity.",
   "private": true,
-  "repository": "https://github.com/cliffordfajardo/mysql-snippets",
+  "repository": "https://github.com/cliffordfajardo/atom-mysql-snippets",
   "bugs": {
-    "url": "https://github.com/cliffordfajardo/mysql-snippets/issues"
+    "url": "https://github.com/cliffordfajardo/atom-mysql-snippets/issues"
   },
   "author": {
     "name": "Clifford Fajardo",

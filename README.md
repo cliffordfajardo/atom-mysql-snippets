@@ -1,15 +1,15 @@
-# MySQL-snippets
+# Atom MySQL Snippets
 
 > A collection of MySQL commands for optimizing modern MySQL development productivity.
 
-![](https://raw.githubusercontent.com/cliffordfajardo/mysql-snippets/master/mysql-snippets-demo.gif)
+![](https://raw.githubusercontent.com/cliffordfajardo/atom-mysql-snippets/master/atom-mysql-snippets-demo.gif)
 ![The MIT License](https://img.shields.io/npm/l/express.svg)
 
 
 ## Install
 
 ```shell
-$ apm install mysql-snippets
+$ apm install atom-mysql-snippets
 ```
 
 
@@ -23,7 +23,7 @@ $ apm install mysql-snippets
 
 ### Contributing/Suggestions
 
-Feel free to let me know ([link](https://github.com/cliffordfajardo/mysql-snippets/issues)) what else can be improved/added or you can also submit a PR.
+Feel free to let me know ([link](https://github.com/cliffordfajardo/atom-mysql-snippets/issues)) what else can be improved/added or you can also submit a PR.
 
 
 
