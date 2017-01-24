@@ -3,7 +3,11 @@
 > A collection of MySQL commands for optimizing modern MySQL development productivity.
 
 ![](https://raw.githubusercontent.com/cliffordfajardo/atom-mysql-snippets/master/atom-mysql-snippets-demo.gif)
+
 ![The MIT License](https://img.shields.io/npm/l/express.svg)
+[![apm](https://img.shields.io/apm/v/atom-mysql-snippets.svg?style=flat-square)](https://atom.io/packages/atom-mysql-snippets)
+[![apm](https://img.shields.io/apm/dm/atom-mysql-snippets.svg?style=flat-square)](https://atom.io/packages/atom-mysql-snippets)
+
 
 
 ## Install
